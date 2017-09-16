@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "Morpheus";
-	src: url('./fonts/morpheus/Morpheus.ttf');
+	src: url('./Fonts/morpheus/Morpheus.ttf');
 }
 @font-face {
 	font-family: "Apple";
-	src: url('./fonts/apple_garamond/applegaramond.ttf');
+	src: url('./Fonts/apple_garamond/applegaramond.ttf');
 }
 @font-face {
 	font-family: "linux";
-	src: url('./fonts/linux_libertine/LinLibertine_adrs.ttf');
+	src: url('./Fonts/linux_libertine/LinLibertine_adrs.ttf');
 }
 .large-header, .container-demo-1{
 	position: relative;
@@ -19,9 +19,9 @@
 }
 
 h1 {
-	font-family: "morpheus";
-	text-shadow: 2px 3px red ;
-	margin-top: 30%;
+		font-family: "Morpheus";
+		text-shadow: 2px 3px red ;
+		margin-top: 30%;
 	 font-size: 6.5em;
 	 color: black;
 	 text-align: center;
@@ -110,16 +110,19 @@ li {
 }
 /*  Work Styling ... */
 
+.work-flex-box {
+	display: flex;
+}
 h3 {
 	/*Work*/
 	font-family: "linux";
-	margin-top: 5%;
+	padding: 4%;
 	text-align: center;
 	color: white;
 	font-size: 3em;
 	text-shadow: 2px 2px red ;
 }
-
+/*    SoundCloud   */
 .Soundcloud {
 	font-family: "linux";
 	width: 15%;
@@ -147,6 +150,38 @@ h3 {
 	margin-left: 5%;
 }
 .Soundcloud img {
+	width: 14vw;
+	height: 14vh;
+	margin-left: 5%;
+}
+/*  Hangman   */
+.Hangman {
+	font-family: "linux";
+	width: 15%;
+	list-style: none;
+	color: white;
+	background: rgba(5,4,13,0.5);
+	padding: 2%;
+	margin-top: -3%;
+	margin-left: 5%;
+}
+.Hangman h4 {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 0;
+}
+
+.Hangman a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	border: white;
+	background: black;
+	border-radius: 25%;
+	padding: 3%;
+	margin-left: 5%;
+}
+.Hangman img {
 	width: 14vw;
 	height: 14vh;
 	margin-left: 5%;
