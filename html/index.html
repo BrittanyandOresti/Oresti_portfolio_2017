@@ -10,20 +10,17 @@
 
 	 <body>
 
-		 <div class="container demo-1">
-				<div id="large-header" class="large-header">
-					<canvas id="demo-canvas"></canvas>
-      <div class="main-title"><span class="thin">
-       <nav>
+		 <a name="home"></a><div class="container demo-1">
+			 <nav>
         <div class="test">
-         <a href="#" id="home">Hello</a>
-         <a href="portfolio.html" id="portfolio">Work</a>
-         <a href="bio.html" id="Bio">Bio</a>
-       	 <a href="https://www.linkedin.com/in/oresti-arsi-879873133/" id="portfolio"><i class="fa fa-linkedin"></i></a>
-       	 <a href="portfolio.html" id="portfolio">Github</a>
-       	 <a href="portfolio.html" id="portfolio">Email</a>
-       	 <a href="portfolio.html" id="portfolio">Skype</a>
-       	 <a href='mailto:brittarsi@gmail.com'><FontAwesome name='envelope'size='4x' /></a>
+         <a href="#home" class="smoothScroll" id="home-link">Hello</a>
+         <a href="#work" class="smoothScroll" id="portfolio">Work <i class="fa fa-laptop" aria-hidden="true"></i></a>
+         <a href="#biog" class="smoothScroll" id="Bio-link">Bio <i class="fa fa-user" aria-hidden="true"></i></a>
+       	 <a href="https://www.linkedin.com/in/oresti-arsi-879873133/" id="portfolio">Linkedin <i class="fa fa-linkedin"></i></a>
+       	 <a href="https://github.com/Orestiarsi" id="portfolio">GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+       	 <!-- <a href="portfolio.html" id="portfolio">Email</a> -->
+       	 <a href="skype:orestiarsi?add" id="portfolio">Skype <i class="fa fa-skype" aria-hidden="true"></i></a>
+       	 <a href='mailto:orestiarsi@gmail.com' id='email'>Email <i class="fa fa-envelope" aria-hidden="true"></i></a>
         </div>
            <!-- <a href="blogs.html" id="blogs">Blogs</a> -->
            <!-- <a href="gallery.html" id="gallery">Gallery</a> -->
@@ -31,28 +28,50 @@
            <!-- <a href="social.html" id="social_media">Social Media</a> -->
            <!-- <a href="games.html" id="games">Games</a> -->
           </nav>
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+      <div class="main-title"><span class="thin">
+
 
        <h1>Oresti Arsi</h1>
-        <!-- <p>
-         I am a full stack web developer. <br/>
-         I am the co-proprieter of B&O Business Consulting. <br/>
-         I am a mixologist and creative chef. <br/>
-         I am a father of four and husband to one.<br/>
-         I am a trilingual immigrant who has enjoyed living and raising my kids in the great USA
-        </p> -->
       </span>
       </div>
 				</div>
    </div>
 
+	 <script src="../twinlite.min.js"></script>
+	 <script src="../EasePack.min.js"></script>
+	 <script src="../raf.js"></script>
+	 <script src="../Header.js"></script>
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	 <script src="../smoothscroll.js"></script>
+
+<!-- Beginning of page break to second portion... -->
 
 
+<div class="master-container-bio">
+	<a name="biog"> <div class="Bio" id="bio">About Me.. </div></a>
+
+				<ul id="list">
+					<li>I am a full stack web developer.</li>
+					<li> I am the co-proprieter of B&O Business Consulting.</li>
+					<li>I am a mixologist and creative Chef.</li>
+				  <li> I am a father of four and husband to one.</li>
+				  <li>I am a trilingual immigrant who has enjoyed living and raising my kids in the great USA.</li>
+			 </ul>
 
 
+	</div>
 
-		<script src="../twinlite.min.js"></script>
-		<script src="../EasePack.min.js"></script>
-		<script src="../raf.js"></script>
-		<script src="../Header.js"></script>
+
+<!-- Beginning of Work portion of workpage..   -->
+
+<div class="Work-page" id="work">
+
+ <p>see my porfolio pieces: </p>
+
+
+</div>
+
 	</body>
 </html>

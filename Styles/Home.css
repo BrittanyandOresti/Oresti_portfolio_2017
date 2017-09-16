@@ -1,39 +1,100 @@
-.large-header, body {
+@font-face {
+	font-family: "Morpheus";
+	src: url('./fonts/morpheus/Morpheus.ttf');
+}
+
+.large-header, .container-demo-1{
 	position: relative;
 	width: 100vw;
- height: 100vh;
+  height: 100vh;
 	background-size: cover;
- 	/*background-image: url('./images/earth-space.jpg');*/
-	background-image: url('http://www.wallpapermaiden.com/wallpaper/10307/download/2560x1440/earth-stars-lights-galaxy.jpg');
+	background-image: url('./images/earth-galaxy.jpg');
+}
+
+h1 {
+	font-family: "Morpheus";
+	text-shadow: 2px 3px red ;
+	margin-top: 30%;
+	 font-size: 6.5em;
+	 color: black;
+	 text-align: center;
+	 text-transform: uppercase;
 }
 
 .main-title {
 	position: absolute;
 	/*color: #f9f1e9;*/
-	color: black;
-	text-align: center;
-	text-transform: uppercase;
+
 	top: 35%;
 	left: 50%;
-	text-shadow: 2px 2px red ;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
  /*background: rgb(84,84,84); /* for IE */
  /*background: rgba(84,84,84,0.5);*/
- font-size: 2.8em;
+
  letter-spacing: 0.1em;
 }
-nav, #home, #work, #Bio, #portfolio{
- /*width: 100vw;*/
+
+nav {
+	width: 100vw;
+  margin-top: 3%;
+  position: fixed;
+	z-index: 5;
+	text-align: center;
+}
+
+#home-link, #work, #Bio-link, #portfolio, #email{
  text-decoration: none;
- font-size: .8em;
- margin-bottom: 45%;
+ font-size: 1.5em;
  color: white;
+ border: 2px solid white;
+ padding: 1%;
+ background: rgba(5,4,13,0.5);
 }
-/*nav {
- display: flex;
- color: yellow;
+
+
+/*    Bio section styling      */
+
+.master-container-bio {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('./images/earth-space.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.test{
- color: purple;
-}*/
+
+#bio {
+	/*About Me*/
+	padding: 7%;
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	text-shadow: 2px 2px red ;
+}
+
+#list {
+	font-size: 1.8em;
+	color: white;
+	padding: 2%;
+	width: 65%;
+	background: rgba(5,4,13,0.75);
+	border-radius: 5%;
+	margin-left: 15%;
+	margin-top: -3%;
+	list-style: none;
+	letter-spacing: .1em;
+}
+
+li {
+	padding: 2%;
+}
+
+/*    STYlING for work portion of the page.. */
+
+#work {
+	background-image: url("./Images/northern-lights.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
