@@ -2,6 +2,10 @@
 	font-family: "Morpheus";
 	src: url('./fonts/morpheus/Morpheus.ttf');
 }
+@font-face {
+	font-family: "Apple";
+	src: url('./fonts/apple_garamond/applegaramond.ttf');
+}
 
 .large-header, .container-demo-1{
 	position: relative;
@@ -44,6 +48,7 @@ nav {
 }
 
 #home-link, #work, #Bio-link, #portfolio, #email{
+font-family: "Apple";
  text-decoration: none;
  font-size: 1.5em;
  color: white;
@@ -65,6 +70,7 @@ nav {
 
 #bio {
 	/*About Me*/
+	font-family: "Apple";
 	padding: 7%;
 	text-align: center;
 	color: white;
@@ -73,6 +79,7 @@ nav {
 }
 
 #list {
+	font-family: "Apple";
 	font-size: 1.8em;
 	color: white;
 	padding: 2%;
