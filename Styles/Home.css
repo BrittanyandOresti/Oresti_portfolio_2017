@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "Morpheus";
-	src: url('./Fonts/morpheus/Morpheus.ttf');
+	src: url('./Fonts/morpheus/MORPHEUS.TTF');
 }
 @font-face {
 	font-family: "Apple";
-	src: url('./Fonts/apple_garamond/applegaramond.ttf');
+	src: url('./Fonts/apple_garamond/AppleGaramond.ttf');
 }
 @font-face {
 	font-family: "linux";
-	src: url('./Fonts/linux_libertine/LinLibertine_adrs.ttf');
+	src: url('./Fonts/linux_libertine/LinLibertine_aDRS.ttf');
 }
 .large-header, .container-demo-1{
 	position: relative;
@@ -102,7 +102,7 @@ li {
 /*    STYlING for work portion of the page.. */
 
 #work {
-	background-image: url("./Images/northern-lights.jpeg");
+	background-image: url("./images/northern-lights.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
