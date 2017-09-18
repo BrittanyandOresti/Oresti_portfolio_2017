@@ -112,6 +112,7 @@ li {
 
 .work-flex-box {
 	display: flex;
+	justify-content: space-around;
 }
 h3 {
 	/*Work*/
@@ -154,8 +155,8 @@ h3 {
 	height: 14vh;
 	margin-left: 5%;
 }
-/*  Hangman   */
-.Hangman {
+/*  Movie   */
+.Movie {
 	font-family: "linux";
 	width: 15%;
 	list-style: none;
@@ -165,13 +166,13 @@ h3 {
 	margin-top: -3%;
 	margin-left: 5%;
 }
-.Hangman h4 {
+.Movie h4 {
 	font-size: 1.5em;
 	text-align: center;
 	margin-top: 0;
 }
 
-.Hangman a {
+.Movie a {
 	text-decoration: none;
 	list-style: none;
 	color: white;
@@ -181,7 +182,40 @@ h3 {
 	padding: 3%;
 	margin-left: 5%;
 }
-.Hangman img {
+.Movie img {
+	width: 14vw;
+	height: 14vh;
+	margin-left: 5%;
+}
+
+/*  Calculator  styling   */
+.Calc {
+	font-family: "linux";
+	width: 15%;
+	list-style: none;
+	color: white;
+	background: rgba(5,4,13,0.5);
+	padding: 2%;
+	margin-top: -3%;
+	margin-left: 5%;
+}
+.Calc h4 {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 0;
+}
+
+.Calc a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	border: white;
+	background: black;
+	border-radius: 25%;
+	padding: 3%;
+	margin-left: 5%;
+}
+.Calc img {
 	width: 14vw;
 	height: 14vh;
 	margin-left: 5%;
